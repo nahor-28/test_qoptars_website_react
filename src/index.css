@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: whitesmoke;
+    scroll-behavior: smooth;
+}
+
+
+.myContainer {
+    width: 100%;
+}
+@media (min-width: 640px) {
+    .myContainer {
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .myContainer {
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .myContainer {
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .myContainer {
+        max-width: 1200px;
+    }
+}
+@media (min-width: 1536px) {
+    .myContainer {
+        max-width: 1200px;
+    }
+}

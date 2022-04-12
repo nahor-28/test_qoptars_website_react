@@ -1,0 +1,13 @@
+.image-bg {
+    background-image: url(../../assets/images/Final1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.customStyles {
+    border-radius: 30px / 15px;
+}
+
+#heart {
+    display: inline-block;
+}

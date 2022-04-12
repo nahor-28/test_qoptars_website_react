@@ -1,0 +1,11 @@
+.camerafeatures {
+    margin: 1rem auto;
+}
+.camerafeatures h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+.camerafeatures p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,33 @@
+.modes_container {
+    max-width: 850px;
+    margin: 5rem auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.modes_container > h1 {
+    font-size: 4.5rem;
+}
+.modes_container > p {
+    font-size: 2rem;
+}
+.mode_image_container {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 1rem auto;
+    margin-bottom: 0;
+    overflow: hidden;
+} 
+.modes_button_container {
+    margin: 0 auto;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.modes_button_container button:first-child {
+    border-left: 1px solid rgba(200, 200, 200, 0.6);
+}
+.modes_button_container button {
+    padding: 1rem;
+    margin: 0;
+    background: rgba(20, 20, 20, 0.7);
+    border-right: 1px solid rgba(200, 200, 200, 0.6);
+}

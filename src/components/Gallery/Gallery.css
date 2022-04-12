@@ -1,0 +1,12 @@
+.gallery_image {
+    max-width: 900px;
+    margin: 5rem auto;
+}
+
+.gallery_image:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 3px 7px -1px rgba(66, 66, 66, 0.9);
+    -moz-box-shadow: 0px 3px 7px -1px rgba(66, 66, 66, 0.9);
+    box-shadow: 0px 3px 7px -1px rgba(66, 66, 66, 0.9);
+    transition: all 0.2s ease-in-out;
+}

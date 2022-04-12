@@ -1,0 +1,36 @@
+.safety_container {
+    margin: 2rem auto;
+}
+.safety_container h1 {
+    font-size: 4rem;
+}
+.safety_container h2 {
+    font-size: 2rem;
+}
+.safety_container > p {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+.safety_container img {
+    max-width: 500px;
+    background: rgba(200, 200, 200, 0.8);
+}
+.safety_feature_container {
+    max-width: 900px;
+    margin: 2rem auto;
+    position: relative;
+
+}
+.safety_feature {
+    margin: 0 auto;
+}
+.safety_feature_text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    background: rgba(200, 200, 200, 0.9);
+    padding: 1rem;
+    color: rgba(20, 20, 20, 0.9);
+}

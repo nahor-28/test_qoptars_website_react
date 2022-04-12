@@ -1,0 +1,31 @@
+.profeatures_bg {
+    background: rgb(20, 20, 20);
+}
+.profeatures {
+    max-width: 1300px;
+    background: rgb(20, 20, 20);
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+}
+.featureWrapper {
+    padding: 0 1rem;
+}
+.profeature {
+    padding: 1rem 0;
+    margin: 2rem 0;
+}
+.profeature h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.profeatures_video {
+    max-width: 900px;
+    background: rgba(40,40,40,0.5);
+}
+.align_right {
+    text-align: right;
+}
+.align_left {
+    text-align: left;
+}
